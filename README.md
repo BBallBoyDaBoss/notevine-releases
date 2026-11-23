@@ -166,7 +166,7 @@ You can turn off the daily check under **Settings, Help and about**. The app rea
 
 ## Support Notevine
 
-Notevine is a passion project of mine with the goal of making the best handwritten notes app on Android. I am the only developer. Tips on [Ko-fi](https://ko-fi.com/notevine) help fund its development. Tips don't unlock anything, and you don't need to give one to use the app.
+Notevine is a passion project of mine designed to be the best handwritten notes app Android has to offer. I am the only developer. Tips on [Ko-fi](https://ko-fi.com/notevine) help fund its development. Tips don't unlock anything, and you don't need to give one to use the app.
 
 ## Privacy and support
 
