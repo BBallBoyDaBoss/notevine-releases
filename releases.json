@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "releasesPage": "https://github.com/BBallBoyDaBoss/notevine-releases/releases",
+  "releases": [
+    {
+      "versionCode": 345,
+      "versionName": "alpha 0.9.0 rev 3",
+      "date": "2026-11-22",
+      "title": "Tours, updates and taskbar fixes",
+      "new": [
+        "When a new version is out, a card shows what changed, with Download now and a progress bar.",
+        "Tours for the extensions (Calculator, Canvas, Files with drag and drop, and the equation and symbol libraries) and for making ink and document layers.",
+        "With the quick wheel on, double-click the pen button to go back to the pen."
+      ],
+      "improved": [
+        "Guided tours have a new card, and the screen is no longer dimmed, so every panel works during a step.",
+        "What's new has its own place in Settings and a new look. The update card matches it.",
+        "Toolbar settings are now part of General.",
+        "With a pinned taskbar, Notevine stays above it, and the layer toolbar centres in the space you can see."
+      ],
+      "fixed": [
+        "Tours no longer stop after the first step in a notebook that syncs.",
+        "The tour's select step let you pick the lasso but not circle a word.",
+        "The tour card could sit under the taskbar."
+      ],
+      "minSdk": 31,
+      "notesUrl": "https://github.com/BBallBoyDaBoss/notevine-releases/releases/tag/v0.9.0-rev3",
+      "apk": {
+        "url": "https://github.com/BBallBoyDaBoss/notevine-releases/releases/download/v0.9.0-rev3/Notevine-0.9.0-rev3.apk",
+        "sha256": "878b566e8e08c303cc53bd8177198e2e3c7620ac25028136af968b65fc6ad0ac",
+        "size": 25373367,
+        "abis": [
+          "arm64-v8a"
+        ]
+      }
+    }
+  ]
+}
