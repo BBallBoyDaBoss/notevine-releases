@@ -144,8 +144,6 @@ Link a folder or notebook to a Canvas course, then open the course from there. N
 
 <img src="docs/images/canvas-panel.webp" alt="Canvas panel showing upcoming work and recent announcements">
 
-<img src="docs/images/canvas-tasks.webp" alt="Course dashboard beside a weekly tasks panel with a progress ring and due dates">
-
 </td>
 </tr>
 </table>
