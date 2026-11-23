@@ -12,6 +12,7 @@
 ![Android 12+](https://img.shields.io/badge/Android-12%2B-0166FE)
 ![Tablets, stylus first](https://img.shields.io/badge/tablets-stylus%20first-0166FE)
 ![No account, no ads](https://img.shields.io/badge/no%20account-no%20ads-0166FE)
+[![Support on Ko-fi](https://img.shields.io/badge/Ko--fi-support-0166FE?logo=kofi&logoColor=white)](https://ko-fi.com/notevine)
 
 <br>
 
@@ -20,8 +21,6 @@
 </div>
 
 > These are alpha test builds. The public beta starts with beta 0.1.0.
->
-> Notevine is free while it's in testing. If it helps you, you can [support it on Ko-fi](https://ko-fi.com/notevine).
 
 ## Write by hand, organize like a notebook
 
@@ -164,6 +163,10 @@ You can turn off the daily check under **Settings, Help and about**. The app rea
 - Android 12 or newer.
 - A 64-bit ARM tablet.
 - A stylus for the best experience. Finger input is available too.
+
+## Support Notevine
+
+One developer builds Notevine, and it's free while it's in testing. Tips on [Ko-fi](https://ko-fi.com/notevine) help fund its development. Tips don't unlock anything, and you don't need to give one to use the app.
 
 ## Privacy and support
 
