@@ -121,20 +121,6 @@ Link a folder or notebook to a Canvas course, then open the course from there. N
 
 </td>
 </tr>
-<tr>
-<td width="58%">
-
-<img src="docs/images/tour-step.webp" alt="A guided tour card that asks you to change the pen colour">
-
-</td>
-<td width="42%" valign="top">
-
-### Guided tours
-
-Short tours show a tool, then ask you to try it in your own notebook. Each takes about a minute. Open them from Help.
-
-</td>
-</tr>
 </table>
 
 ## Install
