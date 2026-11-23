@@ -20,6 +20,8 @@
 </div>
 
 > These are alpha test builds. The public beta starts with beta 0.1.0.
+>
+> Notevine is free while it's in testing. If it helps you, you can [support it on Ko-fi](https://ko-fi.com/notevine).
 
 ## Write by hand, organize like a notebook
 
