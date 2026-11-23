@@ -6,21 +6,22 @@
 
 **Handwriting notes for Android tablets. Pages when you want order, one infinite canvas when you want room.**
 
+> **Alpha test builds.** Notevine is still in testing, so expect rough edges. The public beta starts with beta 0.1.0.
+
 <a href="https://github.com/BBallBoyDaBoss/notevine-releases/releases/latest"><b>Download the latest APK</b></a>
+<br>
+<sub>Android 12 or newer, 64-bit ARM tablet, about 25 MB</sub>
 
 [![Latest release](https://img.shields.io/github/v/release/BBallBoyDaBoss/notevine-releases?include_prereleases&label=latest&color=0166FE)](https://github.com/BBallBoyDaBoss/notevine-releases/releases/latest)
 ![Android 12+](https://img.shields.io/badge/Android-12%2B-0166FE)
 ![Tablets, stylus first](https://img.shields.io/badge/tablets-stylus%20first-0166FE)
 ![No account, no ads](https://img.shields.io/badge/no%20account-no%20ads-0166FE)
-[![Support on Ko-fi](https://img.shields.io/badge/Ko--fi-support-0166FE?logo=kofi&logoColor=white)](https://ko-fi.com/notevine)
 
 <br>
 
 <img src="docs/images/hero.webp" alt="Four handwritten notebook pages: photosynthesis notes, a labelled cell diagram, a lab table and a rate graph" width="100%">
 
 </div>
-
-> These are alpha test builds. The public beta starts with beta 0.1.0.
 
 ## Write by hand, organize like a notebook
 
@@ -58,14 +59,14 @@ Choose from a brush library, then tune width, pressure sensitivity and smoothing
 <tr>
 <td width="42%" valign="top">
 
-### Layers for busy pages
+### Clusters and layers for big subjects
 
-Stack your writing in ink layers. Hide, lock or fade a layer, reorder it, or move a lasso selection onto its own layer.
+Lay pages out in named, coloured clusters, so a whole course fits on one canvas. Stack your writing in ink layers too. Hide, lock or fade a layer, reorder it, or move a lasso selection onto its own layer.
 
 </td>
 <td width="58%">
 
-<img src="docs/images/infinite-clusters.webp" alt="Canvas with sections named Lectures and Labs, each holding pages">
+<img src="docs/images/infinite-clusters.webp" alt="Biology 101 on the infinite canvas, with pages grouped into clusters named Genetics, Labs, Evolution and Ecosystems">
 
 </td>
 </tr>
@@ -76,6 +77,9 @@ Stack your writing in ink layers. Hide, lock or fade a layer, reorder it, or mov
 Turn on **Link to notes** while you record audio. Notevine remembers when you wrote each stroke, text box and shape. Play the recording and your writing traces in as you made it. Tap any linked line to hear what was said at that moment.
 
 ## Math tools in the notebook
+
+<details open>
+<summary>Calculator, equations and symbols</summary>
 
 <table>
 <tr>
@@ -100,7 +104,12 @@ Place equations and figures from built-in libraries, or save your own drawings a
 </tr>
 </table>
 
+</details>
+
 ## Bring your notes with you
+
+<details>
+<summary>Import screens and Canvas LMS</summary>
 
 <table>
 <tr>
@@ -110,10 +119,6 @@ Place equations and figures from built-in libraries, or save your own drawings a
 
 Move notebooks in from Goodnotes, Notability, Notewise, Samsung Notes and OneNote. Choose a backup or a folder. Nothing is copied until you confirm.
 
-### Canvas LMS courses
-
-Link a folder or notebook to a Canvas course, then open the course from there. Notevine submits nothing for you.
-
 </td>
 <td width="58%">
 
@@ -121,7 +126,25 @@ Link a folder or notebook to a Canvas course, then open the course from there. N
 
 </td>
 </tr>
+<tr>
+<td width="42%" valign="top">
+
+### Canvas LMS courses
+
+Link a folder or notebook to a Canvas course, then open the course from there. Notevine submits nothing for you.
+
+</td>
+<td width="58%">
+
+<img src="docs/images/canvas-panel.webp" alt="Canvas panel showing upcoming work and recent announcements">
+
+<img src="docs/images/canvas-tasks.webp" alt="Course dashboard beside a weekly tasks panel with a progress ring and due dates">
+
+</td>
+</tr>
 </table>
+
+</details>
 
 ## Install
 
@@ -132,7 +155,15 @@ Link a folder or notebook to a Canvas course, then open the course from there. N
 
 On Samsung tablets, the setting can be under **Settings, Security and privacy, More security settings, Install unknown apps**. If Auto Blocker stops the install, turn it off under **Settings, Security and privacy, Auto Blocker**. Install the app, then turn Auto Blocker on again.
 
-To check the file, compare its SHA-256 checksum with the one in the release notes.
+### Check your download
+
+Every release lists the APK's SHA-256 checksum in its notes. On a computer, compare it with `certutil -hashfile Notevine-<version>.apk SHA256` (Windows) or `sha256sum Notevine-<version>.apk` (Mac, Linux).
+
+Every Notevine build is signed with the same key. To check the signature, run `apksigner verify --print-certs` on the APK. The certificate SHA-256 digest should be:
+
+```
+a0cbebc47ea3ff2b90efaba801d6a2cb7ee10f1865f8b6cf67be1ed8d14ef1c2
+```
 
 ## Updates
 
@@ -150,6 +181,20 @@ You can turn off the daily check under **Settings, Help and about**. The app rea
 - A 64-bit ARM tablet.
 - A stylus for the best experience. Finger input is available too.
 
+## Questions
+
+**Is it free?** Yes. There is no account, no ad and no paywall in these builds.
+
+**Will my notes survive an update?** Yes. Install over the old version and your notebooks and settings stay.
+
+**Can I put it on a phone or a Chromebook?** It is made for Android tablets with a stylus. Phones are not tested.
+
+**Is the source code available?** No. This repository holds releases and documentation only.
+
+## What's next
+
+The alpha builds lead to a public beta, then a Play Store release. The [changelog](CHANGELOG.md) lists every build so far.
+
 ## Support Notevine
 
 Notevine is a passion project of mine designed to be the best handwritten notes app Android has to offer. I am the only developer. Tips on [Ko-fi](https://ko-fi.com/notevine) help fund its development. Tips don't unlock anything, and you don't need to give one to use the app.
@@ -160,4 +205,8 @@ Notevine has no account, no ads and no analytics. Read the [privacy policy](PRIV
 
 ## Feedback
 
-To report a bug or send an idea, open an [issue](https://github.com/BBallBoyDaBoss/notevine-releases/issues). Reports are public, so leave out private information.
+To report a bug or send an idea, open an [issue](https://github.com/BBallBoyDaBoss/notevine-releases/issues). Reports are public, so leave out private information. To report a security problem privately, read [SECURITY.md](SECURITY.md).
+
+## License
+
+Copyright 2026 Notevine. All rights reserved. The app and its source code are not open source. You may download and use the released builds for personal use. You may not redistribute, modify or reverse engineer them.
