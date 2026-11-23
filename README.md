@@ -59,14 +59,28 @@ Choose from a brush library, then tune width, pressure sensitivity and smoothing
 <tr>
 <td width="42%" valign="top">
 
-### Clusters and layers for big subjects
+### Layers for busy pages
 
-Lay pages out in named, coloured clusters, so a whole course fits on one canvas. Stack your writing in ink layers too. Hide, lock or fade a layer, reorder it, or move a lasso selection onto its own layer.
+Stack your writing in ink layers. Hide, lock or fade a layer, reorder it, or move a lasso selection onto its own layer.
 
 </td>
 <td width="58%">
 
+<img src="docs/images/infinite-sections.webp" alt="Canvas with sections named Lectures and Labs, each holding pages">
+
+</td>
+</tr>
+<tr>
+<td width="58%">
+
 <img src="docs/images/infinite-clusters.webp" alt="Biology 101 on the infinite canvas, with pages grouped into clusters named Genetics, Labs, Evolution and Ecosystems">
+
+</td>
+<td width="42%" valign="top">
+
+### Clusters for whole courses
+
+Lay pages out in named, coloured clusters, so a whole course fits on one canvas.
 
 </td>
 </tr>
@@ -77,9 +91,6 @@ Lay pages out in named, coloured clusters, so a whole course fits on one canvas.
 Turn on **Link to notes** while you record audio. Notevine remembers when you wrote each stroke, text box and shape. Play the recording and your writing traces in as you made it. Tap any linked line to hear what was said at that moment.
 
 ## Math tools in the notebook
-
-<details open>
-<summary>Calculator, equations and symbols</summary>
 
 <table>
 <tr>
@@ -104,12 +115,7 @@ Place equations and figures from built-in libraries, or save your own drawings a
 </tr>
 </table>
 
-</details>
-
 ## Bring your notes with you
-
-<details>
-<summary>Import screens and Canvas LMS</summary>
 
 <table>
 <tr>
@@ -143,8 +149,6 @@ Link a folder or notebook to a Canvas course, then open the course from there. N
 </td>
 </tr>
 </table>
-
-</details>
 
 ## Install
 
