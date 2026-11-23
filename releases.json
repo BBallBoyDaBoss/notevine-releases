@@ -1,38 +1,67 @@
 {
-  "schema": 1,
-  "releasesPage": "https://github.com/BBallBoyDaBoss/notevine-releases/releases",
-  "releases": [
-    {
-      "versionCode": 345,
-      "versionName": "alpha 0.9.0 rev 3",
-      "date": "2026-11-22",
-      "title": "Tours, updates and taskbar fixes",
-      "new": [
-        "When a new version is out, a card shows what changed, with Download now and a progress bar.",
-        "Tours for the extensions (Calculator, Canvas, Files with drag and drop, and the equation and symbol libraries) and for making ink and document layers.",
-        "With the quick wheel on, double-click the pen button to go back to the pen."
-      ],
-      "improved": [
-        "Guided tours have a new card, and the screen is no longer dimmed, so every panel works during a step.",
-        "What's new has its own place in Settings and a new look. The update card matches it.",
-        "Toolbar settings are now part of General.",
-        "With a pinned taskbar, Notevine stays above it, and the layer toolbar centres in the space you can see."
-      ],
-      "fixed": [
-        "Tours no longer stop after the first step in a notebook that syncs.",
-        "The tour's select step let you pick the lasso but not circle a word.",
-        "The tour card could sit under the taskbar."
-      ],
-      "minSdk": 31,
-      "notesUrl": "https://github.com/BBallBoyDaBoss/notevine-releases/releases/tag/v0.9.0-rev3",
-      "apk": {
-        "url": "https://github.com/BBallBoyDaBoss/notevine-releases/releases/download/v0.9.0-rev3/Notevine-0.9.0-rev3.apk",
-        "sha256": "878b566e8e08c303cc53bd8177198e2e3c7620ac25028136af968b65fc6ad0ac",
-        "size": 25373367,
-        "abis": [
-          "arm64-v8a"
-        ]
-      }
-    }
-  ]
+    "schema":  1,
+    "releasesPage":  "https://github.com/BBallBoyDaBoss/notevine-releases/releases",
+    "releases":  [
+                     {
+                         "versionCode":  348,
+                         "versionName":  "alpha 0.9.0 rev 6",
+                         "date":  "2026-11-23",
+                         "title":  "Support page, Help home and a bigger example notebook",
+                         "new":  [
+                                     "Support Notevine is a new Settings tab, and a link appears at the end of setup. Tips on Ko-fi help fund development and unlock nothing.",
+                                     "The example notebook is now a full Biology 101 course with pages grouped into clusters on the canvas. It opens after setup.",
+                                     "Help shows how Canvas works with your weekly tasks.",
+                                     "Help has a Help home entry at the top of the topic list and a home button in the top bar. Either one returns to the home screen in one tap."
+                                 ],
+                         "improved":  [
+                                          "The guided tour cards in Help fill the full width and match the article cards.",
+                                          "Folder and note cards on Home rise slightly when you hover over them."
+                                      ],
+                         "fixed":  [
+                                       "Help opens on its home screen at the top after the app restarts or updates. It keeps your place only while the app stays open."
+                                   ],
+                         "minSdk":  31,
+                         "notesUrl":  "https://github.com/BBallBoyDaBoss/notevine-releases/releases/tag/v0.9.0-rev6",
+                         "apk":  {
+                                     "url":  "https://github.com/BBallBoyDaBoss/notevine-releases/releases/download/v0.9.0-rev6/Notevine-0.9.0-rev6.apk",
+                                     "sha256":  "2dcf305c5bd1a4fae843d95d14633e356989feb8eb4e178581100c188409db2b",
+                                     "size":  25779039,
+                                     "abis":  [
+                                                  "arm64-v8a"
+                                              ]
+                                 }
+                     },
+                     {
+                         "versionCode":  345,
+                         "versionName":  "alpha 0.9.0 rev 3",
+                         "date":  "2026-11-22",
+                         "title":  "Tours, updates and taskbar fixes",
+                         "new":  [
+                                     "When a new version is out, a card shows what changed, with Download now and a progress bar.",
+                                     "Tours for the extensions (Calculator, Canvas, Files with drag and drop, and the equation and symbol libraries) and for making ink and document layers.",
+                                     "With the quick wheel on, double-click the pen button to go back to the pen."
+                                 ],
+                         "improved":  [
+                                          "Guided tours have a new card, and the screen is no longer dimmed, so every panel works during a step.",
+                                          "What\u0027s new has its own place in Settings and a new look. The update card matches it.",
+                                          "Toolbar settings are now part of General.",
+                                          "With a pinned taskbar, Notevine stays above it, and the layer toolbar centres in the space you can see."
+                                      ],
+                         "fixed":  [
+                                       "Tours no longer stop after the first step in a notebook that syncs.",
+                                       "The tour\u0027s select step let you pick the lasso but not circle a word.",
+                                       "The tour card could sit under the taskbar."
+                                   ],
+                         "minSdk":  31,
+                         "notesUrl":  "https://github.com/BBallBoyDaBoss/notevine-releases/releases/tag/v0.9.0-rev3",
+                         "apk":  {
+                                     "url":  "https://github.com/BBallBoyDaBoss/notevine-releases/releases/download/v0.9.0-rev3/Notevine-0.9.0-rev3.apk",
+                                     "sha256":  "878b566e8e08c303cc53bd8177198e2e3c7620ac25028136af968b65fc6ad0ac",
+                                     "size":  25373367,
+                                     "abis":  [
+                                                  "arm64-v8a"
+                                              ]
+                                 }
+                     }
+                 ]
 }
