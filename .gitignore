@@ -1,0 +1,9 @@
+*.apk
+*.jks
+*.keystore
+.idea/
+*.idea
+
+Thumbs.db
+Desktop.ini
+.DS_Store

@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Help and backup guide
+    url: https://github.com/BBallBoyDaBoss/notevine-releases/blob/main/SUPPORT.md
+    about: Installing, updating, backups and moving to a new tablet.

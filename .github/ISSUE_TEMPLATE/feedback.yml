@@ -1,0 +1,23 @@
+name: Send feedback
+description: An idea, a wish, or something that feels awkward.
+labels: ["feedback"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your feedback
+      description: What would make Notevine better for you?
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Notevine version
+  - type: input
+    id: android
+    attributes:
+      label: Android version
+  - type: input
+    id: device
+    attributes:
+      label: Tablet model
