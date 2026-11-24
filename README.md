@@ -115,6 +115,12 @@ Place equations and figures from built-in libraries, or save your own drawings a
 </tr>
 </table>
 
+## AI assistants in the sidebar
+
+The sidebar has tabs for ChatGPT, Claude and Gemini. Each tab opens that provider's own website, and you sign in with your own account. Notevine has no API keys.
+
+A picture leaves the tablet only when you tap Attach, or Use when the provider asks for a file. You still press send on the provider's site. Dragging a file from Files onto the sidebar sends that file at once. Turn the tabs on under **Settings, Tools, AI assistants in the sidebar**.
+
 ## Bring your notes with you
 
 <table>
@@ -159,9 +165,9 @@ On Samsung tablets, the setting can be under **Settings, Security and privacy, M
 
 ### Check your download
 
-Every release lists the APK's SHA-256 checksum in its notes. On a computer, compare it with `certutil -hashfile Notevine-<version>.apk SHA256` (Windows) or `sha256sum Notevine-<version>.apk` (Mac, Linux).
+Every release lists the APK's SHA-256 checksum in its release notes and in `releases.json`. On a computer, compare it with `certutil -hashfile Notevine-<version>.apk SHA256` (Windows) or `sha256sum Notevine-<version>.apk` (Mac, Linux).
 
-Every Notevine build is signed with the same key. To check the signature, run `apksigner verify --print-certs` on the APK. The certificate SHA-256 digest should be:
+Notevine builds from alpha 0.9.0 on are signed with the same release key. To check the signature, run `apksigner verify --print-certs` on the APK. The certificate SHA-256 digest should be:
 
 ```
 a0cbebc47ea3ff2b90efaba801d6a2cb7ee10f1865f8b6cf67be1ed8d14ef1c2
@@ -175,7 +181,7 @@ To check yourself, open **Settings, Help and about** and tap **Check now**. Note
 
 Install over the old version. Do not uninstall first, because uninstalling deletes Notevine's private storage.
 
-You can turn off the daily check under **Settings, Help and about**. The app reads [releases.json](https://raw.githubusercontent.com/BBallBoyDaBoss/notevine-releases/main/releases.json) from this repository to find new versions.
+Turn off **Check once a day** under **Settings, Help and about** to stop the daily check. The app reads [releases.json](https://raw.githubusercontent.com/BBallBoyDaBoss/notevine-releases/main/releases.json) from this repository to find new versions.
 
 ## Requirements
 
@@ -189,7 +195,7 @@ You can turn off the daily check under **Settings, Help and about**. The app rea
 
 **Will my notes survive an update?** Yes. Install over the old version and your notebooks and settings stay.
 
-**Can I put it on a phone or a Chromebook?** It is made for Android tablets with a stylus. Phones are not tested.
+**Can I put it on a phone or a Chromebook?** It is made for Android tablets with a stylus. It has not been tested on phones or Chromebooks.
 
 **Is the source code available?** No. This repository holds releases and documentation only.
 
