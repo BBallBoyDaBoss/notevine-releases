@@ -45,14 +45,14 @@ Group pages into sections on the canvas, then link a page, a section or a notebo
 <tr>
 <td width="58%">
 
-<img src="docs/images/brush-library.webp" alt="Brush library with pen presets, width, pressure and smoothing controls">
+<img src="docs/images/brush-library.webp" alt="Brush library with brush categories, a live stroke preview, line style, size and opacity, and settings tabs">
 
 </td>
 <td width="42%" valign="top">
 
 ### Pens and brushes that react to your hand
 
-Choose from a brush library, then tune width, pressure sensitivity and smoothing. Add a highlighter, an eraser, a ruler, shapes, tables, sticky notes and pictures.
+Choose from a brush library. Size, opacity and color come first; tabs hold deeper settings such as pressure, taper, flow and grain. Add a highlighter, an eraser, a ruler, shapes, tables, sticky notes and pictures.
 
 </td>
 </tr>
@@ -81,6 +81,20 @@ Stack your writing in ink layers. Hide, lock or fade a layer, reorder it, or mov
 ### Clusters for whole courses
 
 Lay pages out in named, coloured clusters, so a whole course fits on one canvas.
+
+</td>
+</tr>
+<tr>
+<td width="42%" valign="top">
+
+### A library that keeps up
+
+Find notebooks in Library, Recent and Favorites. Favorites gathers the pages you star from every notebook. Tap the storage size to see what each folder and notebook uses.
+
+</td>
+<td width="58%">
+
+<img src="docs/images/library.webp" alt="Home screen library with folders and notebooks, and tabs for Library, Recent, Favorites and Bin">
 
 </td>
 </tr>
